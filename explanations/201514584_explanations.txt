@@ -1,0 +1,15 @@
+hitesh dadwal 
+ms in civil enginnering 
+201514584
+ basically we understand about many command as following
+cd create directory
+add this to add  txt file from local area to staging area
+pwd to find the location of the folder
+mkdir to creat the directory
+echo to add txt directly to any folder
+mv to move the command
+ push to push the file to repository
+pull to pull from the repository
+commit to make snapshot of all area
+status to let us know whether we modified the file or not
+
