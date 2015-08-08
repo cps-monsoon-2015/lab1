@@ -1,0 +1,193 @@
+vinay@VINAYiNSPIRON:~$ git init
+Reinitialized existing Git repository in /home/vinay/.git/
+vinay@VINAYiNSPIRON:~$ git clone https://github.com/cps-monsoon-2015/lab1
+Cloning into 'lab1'...
+remote: Counting objects: 110, done.
+remote: Compressing objects: 100% (83/83), done.
+remote: Total 110 (delta 47), reused 84 (delta 21), pack-reused 0
+Receiving objects: 100% (110/110), 35.71 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (47/47), done.
+Checking connectivity... done.
+vinay@VINAYiNSPIRON:~$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.ICEauthority
+	.Xauthority
+	.bash_history
+	.bash_logout
+	.bashrc
+	.cache/
+	.compiz/
+	.config/
+	.dmrc
+	.gconf/
+	.gitconfig
+	.gnome/
+	.local/
+	.mozilla/
+	.pki/
+	.profile
+	.racket/
+	.sudo_as_admin_successful
+	.thunderbird/
+	.xsession-errors
+	.xsession-errors.old
+	Desktop/
+	Documents/
+	Downloads/
+	Firefox_wallpaper.png
+	examples.desktop
+	lab1/
+	rar/
+
+nothing added to commit but untracked files present (use "git add" to track)
+vinay@VINAYiNSPIRON:~$ ls
+Desktop    Downloads         Firefox_wallpaper.png  Music     Public  store      Videos
+Documents  examples.desktop  lab1                   Pictures  rar     Templates
+vinay@VINAYiNSPIRON:~$ pwd
+/home/vinay
+vinay@VINAYiNSPIRON:~$ cd lab1
+vinay@VINAYiNSPIRON:~/lab1$ ls
+explanations  participants.md   participants.rkt  tips.md
+participants  participants.md~  README.md
+vinay@VINAYiNSPIRON:~/lab1$ nano participants.md
+vinay@VINAYiNSPIRON:~/lab1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   participants.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	explanations/201560592_explanation.txt
+	participants/201560592.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+vinay@VINAYiNSPIRON:~/lab1$ git add *
+vinay@VINAYiNSPIRON:~/lab1$ git commit -m "Added information about Vinay Kusuma"
+[master 229daf8] Added information about Vinay Kusuma
+ 3 files changed, 18 insertions(+)
+ create mode 100644 explanations/201560592_explanation.txt
+ create mode 100644 participants/201560592.txt
+vinay@VINAYiNSPIRON:~/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+vinay@VINAYiNSPIRON:~/lab1$ git push -u origin master
+Username for 'https://github.com': humbleflowers
+Password for 'https://humbleflowers@github.com': 
+remote: Permission to cps-monsoon-2015/lab1.git denied to humbleflowers.
+fatal: unable to access 'https://github.com/cps-monsoon-2015/lab1/': The requested URL returned error: 403
+vinay@VINAYiNSPIRON:~/lab1$ git push -u origin master
+Username for 'https://github.com': 2015-monsoon-cps
+Password for 'https://2015-monsoon-cps@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/cps-monsoon-2015/lab1/'
+vinay@VINAYiNSPIRON:~/lab1$ git push -u origin master
+Username for 'https://github.com': 2015-monsoon-cps
+Password for 'https://2015-monsoon-cps@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/cps-monsoon-2015/lab1/'
+vinay@VINAYiNSPIRON:~/lab1$ git push -u origin master
+^[[BUsername for 'https://github.com': cps-monsoon-2015
+Password for 'https://: cps-monsoon-2015@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/cps-monsoon-2015/lab1/'
+vinay@VINAYiNSPIRON:~/lab1$ git push -u origin master
+Username for 'https://github.com': cps-monsoon-2015
+Password for 'https://cps-monsoon-2015@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.26 KiB | 0 bytes/s, done.
+Total 7 (delta 4), reused 0 (delta 0)
+To https://github.com/cps-monsoon-2015/lab1
+   75e1fce..229daf8  master -> master
+Branch master set up to track remote branch master from origin.
+vinay@VINAYiNSPIRON:~/lab1$ racket -f participants.rkt
+1 201560543 Aditi Gautam
+2 201560562 Anjali Verma
+3 201212345 Gugan Vignesh Servaraj
+4 201460623 Janani Sundar
+5 201560557 Sudhanshu Kumar Singh
+vinay@VINAYiNSPIRON:~/lab1$ nano participants.md
+vinay@VINAYiNSPIRON:~/lab1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+vinay@VINAYiNSPIRON:~/lab1$ git log
+commit 229daf8de0840cdbb8d6c91ab2e28a61236e8b08
+Author: Vinay Kusuma <vinaykusumarhcp@gmail.com>
+Date:   Fri Aug 7 23:45:36 2015 +0530
+
+    Added information about Vinay Kusuma
+
+commit 75e1fce41ae04b13a6ab4fa06e5f3849ebdf3a74
+Author: Aditi <aditi.gautam78@gmail.com>
+Date:   Fri Aug 7 23:22:33 2015 +0530
+
+     Added information about Anjali
+
+commit 118be1b0f3c562f5abed1c07a097199483e66b09
+Author: Aditi <aditi.gautam78@gmail.com>
+Date:   Fri Aug 7 22:12:22 2015 +0530
+
+    added participants
+
+commit b7da66884c8b485cf7e7f708d7a94f8741e6efc7
+Author: Aditi <aditi.gautam78@gmail.com>
+Date:   Fri Aug 7 22:06:24 2015 +0530
+
+    added information about anjali
+
+commit 633e5077e1e7af16ed5b985ca7ea40f7c3527d23
+Author: sudhanshu <sudhanshu2405@gmail.com>
+vinay@VINAYiNSPIRON:~/lab1$ 
+vinay@VINAYiNSPIRON:~/lab1$ nano participants.rkt
+vinay@VINAYiNSPIRON:~/lab1$ nano participants.rkt
+vinay@VINAYiNSPIRON:~/lab1$ racket -f participants.rkt
+1 201560543 Aditi Gautam
+2 201560562 Anjali Verma
+3 201212345 Gugan Vignesh Servaraj
+4 201460623 Janani Sundar
+5 201560557 Sudhanshu Kumar Singh
+6 201560592 Vinay Kusuma
+vinay@VINAYiNSPIRON:~/lab1$ git add participants.rkt
+vinay@VINAYiNSPIRON:~/lab1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   participants.rkt
+
+vinay@VINAYiNSPIRON:~/lab1$ git commit -m "Added information about vinay k"
+[master 156c1df] Added information about vinay k
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+vinay@VINAYiNSPIRON:~/lab1$ git push -u origin master
+Username for 'https://github.com': cps-monsoon-2015
+Password for 'https://cps-monsoon-2015@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 329 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/cps-monsoon-2015/lab1
+   229daf8..156c1df  master -> master
+Branch master set up to track remote branch master from origin.
+vinay@VINAYiNSPIRON:~/lab1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+vinay@VINAYiNSPIRON:~/lab1$ git commit -m "Added information about vinay k".
+
