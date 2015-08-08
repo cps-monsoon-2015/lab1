@@ -1,0 +1,58 @@
+MOHD.ARBAAZ PARVEZ
+roll no:-201511306
+case student
+
+what is git?
+GIT is a very popular and efficient open source Version Control System. It tracks content such as files and directories.
+
+some of the commmon commands used in git are:
+
+1) $ git init :-It creates an empty git repository or it can be initialize the file which is already existing.In the folder it creates an temporary folder (.git)which act as a backup file
+ Initialized empty Git repository in c:/Users/arbaaz/desktop/git_lab/201511306
+
+
+2) $ git add :-In Git,you have to add file contents to your staging area before you can commit them.If the file is new,you can run git add to initially add the file to your staging area,but even if the file is already tracked ie,it was in your last commit you still need to call git add to add new modifications to your staging area.
+
+when we normally put a command without anyfile name then it shows
+nothing specified,nothing added.
+maybe you wanted to say "git add."
+
+git add 201511306.txt
+
+3) $ git add. :-In this every file will be send to the staging area.
+
+
+4) $ git commit :-Once all desired files are added and staged,a commit command will be saves the pending files to local repsitory 
+
+ if we want to give any message then give a command, git commit -m "type a message"
+
+5) cd~ :- If we want to change the directory
+ 
+6) cd .. :- If we want to come back in the folder 
+
+Eg: c:/users/arbaaz/desktop/git_lab/221511306 
+             it changes to
+    c:/users/arbaaz/desktop/git_lab
+
+7) $ git log :- This shows us what all commits we have done till the end.
+    if we did not do any commit till last it show a message
+    fatal: bad default revision 'HEAD'
+
+8) $ git mv :- it moves or renames a file or a directory.
+
+9) $ git rm :- remove files from the working tree and form the index.
+
+10) $ git clone :- copy a repository into a new directory.
+
+12) $ git pull :- fetch from and merge with another repository or a local branch
+
+13) $ git push :- send changes to the master branch of your remote repository,update remote refs along with associated object 
+     eg: $ git push origin master
+
+14) git diff :- show file differnece not yet staged.
+
+15) $git --staged :-show file diffenence between staging and the last file version.
+
+
+
+
