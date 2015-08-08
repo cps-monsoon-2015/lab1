@@ -1,0 +1,1 @@
+By doing this exercise I learned basics about Git like how to intialize git,clone online repository,add files to staging area,commit changes in the local repository,push changes to online repository,update local repository etc.
