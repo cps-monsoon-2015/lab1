@@ -1,0 +1,16 @@
+
+Git is a distrubuted version control software used for file/data management and its effective 
+retrieval. tried understanding  basic shell commands like git init,git status,cd,mkdr,touch ,rm
+and concepts like centralized & distributed control versions,pull,push,commit,stagging area,remote 
+and local repository.tried to understand git GUI applications and its equivalent shell command.as 
+i was using windows os i faced lot of problems in execuitng  commands due to proxy server configuration.
+the proxy server used to throw a error 433 time out exceptions.(only for windows os).so each time when 
+we pull/clone we must first configure proxy.
+
+following commands were used to set them 
+git config --global --get http.proxy--which will show current proxy
+
+we need to set proxy by using
+git config --global http://username@students.iiit.ac.in:password@proxy.iiit.ac.in:8080
+
+working on linux saves time as it has no proxy isuue.
