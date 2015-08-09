@@ -1,0 +1,252 @@
+    1  #sudo apt-get 
+    2  ssh laxmi@rahman
+    3  exit
+    4  vlc
+    5  sudo apt-get install vlc-nox
+    6  sudo apt-get install python
+    7  sudo apt-get install scipy
+    8  emacs
+    9  sudo apt-get install emacs
+   10  emacs
+   11  emacs -nw
+   12  emacs
+   13  emacs -nw
+   14  vi
+   15  vi rishi.txt
+   16  ls
+   17  sudo get-apt install git
+   18  sudo apt-get install git
+   19  git init
+   20  git clone https://github.com/
+   21  cps-monsoon-2015/lab1
+   22  git init
+   23  git status
+   24  git add 201560609.txt
+   25  git status
+   26  git init
+   27  git status
+   28  git add
+   29  git add 201560609_explaination.txt
+   30  git init
+   31  git status
+   32  git init
+   33  git add 201560609_explation.txt
+   34  git status
+   35  git Documents/Rishi.txt
+   36  git --help
+   37  git add
+   38  git add .
+   39  git status
+   40  git init
+   41  git status
+   42  git
+   43  uninstall
+   44  uni
+   45  cd
+   46  unistall git
+   47  sudo apt-get remove git
+   48  git
+   49  sudo apt-get git
+   50  sudo apt-get install git
+   51  git init
+   52  git status
+   53  git add 201560609_explaination.txt
+   54  vlc
+   55  201560609_explaination.txt
+   56  > 201560609_explaination.txt
+   57  git init
+   58  git status
+   59  git init
+   60  hidden files
+   61  help
+   62  > 2015606069_explaination.txt
+   63  > 201560609_explaination.txt
+   64  vim 201560609_explaination.txt
+   65  > vim 201560609_explaination.txt
+   66  sudo apt-get install vim
+   67  vim 201560609_explaination.txt
+   68  dc++
+   69  > 201560609.txt
+   70  > 201560609_explaination.txt
+   71  vim 201560609_explaination.txt
+   72  > 201560609_explaination.txt
+   73  vim 201560609_explaination.txt
+   74  git init
+   75  git status
+   76  git add 201560609_explaination.txt
+   77  git status
+   78  git clone https://github.com/cps-monsoon-2015/lab1
+   79  cd lab1
+   80  git status
+   81  gedit explanations/201560609.txt
+   82  :w
+   83  git add
+   84  git add 202560609.txt
+   85  gedit explainations/201560609.txt
+   86  git staatus
+   87  git status
+   88  > 201560609.txt
+   89  vim 201560609.txt
+   90  git status
+   91  git commit -m "Added Information about Rishi Sethia"
+   92  git add *
+   93  git commit -m "Added Information about Rishi Sethia"
+   94  git add *
+   95  git commit -m "Added Information about Rishi Sethia"
+   96  > 201560609_explaination.txt
+   97  vim 201560609_explaination.txt
+   98  git init
+   99  git clone https://github.com/cps-monsoon-2015/lab1
+  100  cd lab1
+  101  > 201560609.txt
+  102  vim 201560609.txt
+  103  mv 201560609.txt
+  104  mv --help
+  105  mv 201560609.txt home/lab1/participants
+  106  mv 201560609.txt home/lab1/participants/
+  107  mv 201560609.txt /participants/
+  108  mv 201560609.txt participants/
+  109  git commit "Added Information about Rishi Sethia"
+  110  git commit -m "Added Information about Rishi Sethia"
+  111  cd home
+  112  cd rishi@RJ
+  113  git commit -m "Added Information about Rishi Sethia"
+  114  git config --global rishi.sethia@students.iiit.ac.in
+  115  git config --global rishi sethia
+  116  git config --global rishi.sethia
+  117  git commit -m "Added Information about Rishi Sethia"
+  118  git config --global rishi.sethia@students.iiit.ac.in
+  119  git config --global rishi.sethia
+  120  Omit --global
+  121  git status
+  122  git add '*.txt'
+  123  git commit -m "Added Information about Rishi Sethia"
+  124  git commit
+  125  git status
+  126  git commit -m "Added Information about Rishi Sethia"
+  127  git rest HEAD explainations/201560609_explaination.txt
+  128  git reset HEAD explainations/201560609_explaination.txt
+  129  git commit -m "Added Information about Rishi Sethia"
+  130  run
+  131  git config --global rishi.sethia@students.iiit.ac.in
+  132  git config --global rishi.sethia Rishi Sethia
+  133  omit --global 
+  134  Omit --global 
+  135  git push
+  136  git pull
+  137  git log
+  138  gedit participants.md
+  139  git add
+  140  git add participants.md
+  141  git commit -m "~Added Information about Rishi Sethia"
+  142  git commit -m "Added Information about Rishi Sethia"
+  143  git config --global rishi.sethia@students.iiit.ac.in
+  144  git config --global rishi.sethia "Rishi Sethia"
+  145  git omit --global
+  146  git push
+  147  git config --global
+  148  git push
+  149  git push https://github.com/cps-monsoon-2015/lab1
+  150  racket
+  151  sudo apt-get install racket
+  152  git push -u origin master
+  153  git pull origin master
+  154  git commit -m "Added information about Rishi Sethia"
+  155  git diff head
+  156  git diff HEAD
+  157  git commit -m " Added information by Rishi Sethia for lab work 1"
+  158  git push -u origin master
+  159  participants.rkt
+  160  > participants.rkt
+  161  vim participants.rkt
+  162  gedit participants.rkt
+  163  git add participants.rkt
+  164  git status
+  165  git commit -m "Rishi Sethia"
+  166  git push
+  167  > 201560609_explaination.txt
+  168  vim 201560609_explaination.txt
+  169  git init
+  170  git clone https://github.com/cps-monsoon-2015/lab1
+  171  > 201560609.txt
+  172  vim 201560609.txt
+  173  pwd
+  174  cd lab1
+  175  ls
+  176  git add 201560609_explaination.txt
+  177  cd explanations
+  178  git add 201560609_explaination.txt
+  179  git status
+  180  git commit -m "Added information about Rishi Sethia"
+  181  git push -u https://github.com/cps-monsoon-2015/lab1
+  182  git status
+  183  cd lab1
+  184  cd participants
+  185  git checkout
+  186  git status
+  187  git commit -m "added information about rishi"
+  188  cd lab1
+  189  > 201560609_explanation.txt
+  190  vim 201560609_explanation.txt
+  191  git init
+  192  git clone https://github.com/cps-monsoon-2015/lab1
+  193  > 201560609.txt
+  194  vim 201560609.txt
+  195  git status
+  196  cd lab1
+  197  git status
+  198  cd explanation
+  199  cd /explanation
+  200  git add
+  201  git add 201560609_explanation.txt
+  202  git status
+  203  cd explanations
+  204  git status
+  205  git commit -m "Added Information of Rishi Sethia"
+  206  git congig --global rishi.sethia@students.iiit.ac.in
+  207  git config --global rishi.sethia@students.iiit.ac.in
+  208  Rishi2904
+  209  git commit -m "Added Information of Rishi Sethia"
+  210  git status
+  211  git commit -m "Added Information About Rishi Sethia"
+  212  git config --global rishi.sethia@iiit.ac.in
+  213  git config --global RishiSethia "Rishi Sethia"
+  214  Omit --global
+  215  git config --global user.name "Rishi Sethia"
+  216  git config --global user.email "rishi.sethia@students.iiit.ac.in"
+  217  git commit -m "Added Information About Rishi Sethia"
+  218  git status
+  219  git add .
+  220  git status
+  221  git commit -m "Added information by Rishii Sethia"
+  222  git status
+  223  git push -u origin master
+  224  ls
+  225  cd ..
+  226  ls
+  227  nano participants.md
+  228  nano participants.rkt
+  229  cd participants/
+  230  ls
+  231  cd ..
+  232  ls
+  233  cd explanations/
+  234  ls
+  235  cd ..
+  236  ls
+  237  cd explanations/
+  238  nano 201560522_lab1.txt 
+  239  history > 201560609_lab1.txt
+  240  nano 201560609_lab1.txt 
+  241  rm 201560609_lab1.txt 
+  242  ls
+  243  cd ..
+  244  racket -f participants.rkt
+  245  nano participants.rkt 
+  246  racket -f participants.rkt
+  247  nano participants.rkt 
+  248  nano participants.md
+  249  racket -f participants.rkt
+  250  nano participants.md
+  251  cd explanations
+  252  history > 201560609_lab1.txt
