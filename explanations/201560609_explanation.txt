@@ -1,0 +1,15 @@
+In exercise 0, Q2. Observations were as follows:
+git init 	# Is used to initialize empty Git repository in /.git/
+git status 	# Shows the repository status, recommended to use often
+git add 	# Adds file to the staging area.
+git commit 	# To describe the changes made within the file
+git log 	# Gives the history of commits made
+git push -u remote_name branch_name 	# Tell where to put our commits
+git pull 	# Allows other invited users to pull the changes made and commit their own and push it back
+git diff HEAD	# To see the different changes with Head pointer that holds our position within all your different commits
+git reset	# Used to unstage files
+git checkout -- <target>	# We get rid of all the changes made from last commit
+git branch clean_up	# To remove the copy created while working
+git rm '*.ext'	# Will remove all the files with that extention 
+
+=>'*.ext'	# All files with that extension 
