@@ -12,6 +12,7 @@ A list of participants in CSE 602
 * Sanchita Chaturvedi (201560573)
 * Shweta Kulshreshtha (201560516)
 * Sudhanshu Kumar Singh (201560557)
+* Surendhar S.V (201511525)
 <<<<<<< HEAD
 * Vinay Kusuma (201560592)
 * vidushi Walia(201560617)
