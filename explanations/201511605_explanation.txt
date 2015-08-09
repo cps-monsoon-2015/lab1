@@ -1,0 +1,81 @@
+NAME-shailendra rathore	
+ROLL NO: 201511605
+git version
+git version 1.9.5.msysgit.1
+
+git config --global user.name "201511605"			/saving my usser name/
+
+git config --global user.email "shailendrarathore93@gmail.com"		/saving my mail/
+
+git config --list
+
+clear 
+
+git config --list		/to view all setting/
+
+git config user.email		/to view the requierd setting/
+
+git help
+
+git help commit
+
+pwd 		/to know exactly where the git is working/
+Output:/c/user/welcome
+
+cd ~		/it will takes us to what ever the folder you want/
+
+cd ..		/takes you back by one directory/
+
+ls		/list all the folders(directorys with the root)/
+
+cd lab1		/tacked the directory/
+
+ls
+
+get init	/initalized empty git repository in </c/user/welcome/desktop/lab1>
+
+pwd
+
+ls
+
+ls -la		/displays all the hidden files which are managing git/
+
+clear
+
+git add .
+
+git commit -m "this is my first commit"		/takes the snakshot/
+it displaysed the changes
+
+pwd
+
+git log 	/it displays the history, commits/
+
+git log --author="201511605"	/shows the commits by 605/
+		
+git status		/displays the status/
+
+mkdir avinash		/creat a directory/
+git add lab1.txt	/added the file/
+
+git commit -m "i had added lab1"
+
+if you want to edit the file modife it and just go with 
+git add .
+
+git diff 	/shows the changes in the file/
+
+git diff --staged		/compares with the staging area/
+
+git rm lab1.txt		/it delets the file lab1/
+
+git mv lab1.txt labone.txt	/renaming the file/
+
+git clone https://github.com/ cps-monsoon-2015/lab1
+git pull 		/it pulls the file/
+
+git push		/it pushes the revised version to remote repositry/
+
+git commit -m 	
+
+
