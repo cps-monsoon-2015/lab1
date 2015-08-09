@@ -1,0 +1,31 @@
+s.v.surendhar
+CASE
+201511525
+
+Following are the excerpts of self from the material and assignment given:
+
+1. git init - creates the hidden folder .git or creates the new repository
+
+2. git add - adds the files in the repository to the staging area
+
+3. git pull - copys the remote repository to the local computer and updates our local repository chenage to remote repository
+
+4. git clone - copys the remote repository to the local computer and doesnot update any changes
+
+5. git push - copys the local repository to the remote and updates the changes of local to remote
+
+6. git stash - this stops the changes from your local repository to be updated to the remote when you are pulling 
+
+7. git stash apply - the stopped changes now being updated to remote repository and now we can push it back to remote, which wil update the local changes too
+
+8. git reset - unstaging
+
+9. git checkout - to switch between branches
+
+10. git branch - to see how many branches are active
+
+11. git rm - for removal of files
+
+12. git merge - merges local and remote repositories
+
+
