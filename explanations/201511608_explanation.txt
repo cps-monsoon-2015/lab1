@@ -1,0 +1,56 @@
+ Pathan Muzafar Ali Khan 
+ Roll No 201511608
+ CASE
+ 
+ Github is file managing that is a facility where things can be
+ deposit.Git is cool took to manage file where different working on the same file,it is too
+ good for developer to commuicate with other developer,where there are working on the same file.
+ In Commit we save the file that we have chaned,where as in commit -m "we make comment "
+ I have came to know different commands of git that is git init which make repository
+ where we can deposit the things,git status to track the files,git add to add the file in stagging area,
+ cd change directory,> creat any file,to select multple option we use *.(file type),
+ pwd .. one level up cd <- change directory
+ mkdir   creat directory/folder,which tracks all the file,pwd <- look 
+ git log use to check the git save history with date,time,user name and emale.git clone use to copy,
+ git push move the file,git pull take the file.This is 
+
+The mostly used commans are
+   add        We Add file  to index
+   branch     List or  create or delete branch
+   clone      copy new directory
+   commit     save the change file
+   diff       show the difference incomment
+   init       Create folder or reinitialize 
+   log        Show save history
+   merge      merge the things
+   mv         Move or rename a file or a directory,
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove 
+   show       Show all things
+   status     show what i have selected
+   mkdir      make a directory
+   touch      creat a file
+   vim        to write a text 
+   :wq        write quit
+
+The steps i have fallowed
+
+1) mkdir MyNewFolder
+
+2) >3013212_test.txt
+3) git init
+git remote add origin <url>
+
+4) git pull
+5) git log
+6) git add filename
+7) git commit -m 'mess'
+
+8) git push to html//:
+  --------------------------------------------------------------
+   
+
+
