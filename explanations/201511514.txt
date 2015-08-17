@@ -1,0 +1,9 @@
+While practising the Q2 in exercise-0,I came to know about following commands:
+*git init-to initialise a repository
+*git status-to get the status of our current work
+*git add-to track our file in git
+*git commit -m-to store our repository 
+*git log --summary-to get information about our commits and it is the overview of our file
+*git push -u - to push the file in github
+*git pull - to make changes from other files
+
